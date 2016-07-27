@@ -28,3 +28,9 @@ Download the latest version of the `selenium-server-standalong-{VERSION}.jar fil
 Use the (Nightwatch Test Runner)[http://nightwatchjs.org/guide#test-runner].
 
 
+### Testing 
+
+to test nightwatch you will need a site to run it against. you can add the tests-site folder to your localhost and use it to run tests with nightwatch. The website is a basic form which nightwatch can use to automatically fill it out. 
+
+Open up play.js in the tests folder and alter the path in the client.url('you path here') for an example of how to use nightwatch to run automatic testing. 
+
