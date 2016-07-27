@@ -23,7 +23,7 @@ this.demoTest2 = function(client) {
 */
 
 this.demoTest3 = function(client) {
-  client.url("http://localhost/nightwatch/practiseForm.html");
+  client.url("http://localhost:8234/practiseForm.html");
   client.waitForElementVisible('body', 1000);
   
   client.verify.elementPresent("#uname");
